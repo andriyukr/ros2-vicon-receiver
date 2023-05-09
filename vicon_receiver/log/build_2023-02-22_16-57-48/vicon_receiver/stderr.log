@@ -1,0 +1,17 @@
+In file included from [01m[K/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/src/vicon_receiver/publisher.cpp:1[m[K:
+[01m[K/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/include/vicon_receiver/publisher.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kvicon_receiver/msg/position.hpp: No such file or directory
+    5 | #include [01;31m[K"vicon_receiver/msg/position.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/include/vicon_receiver/communicator.hpp:6[m[K,
+                 from [01m[K/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/src/vicon_receiver/communicator.cpp:1[m[K:
+[01m[K/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/include/vicon_receiver/publisher.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kvicon_receiver/msg/position.hpp: No such file or directory
+    5 | #include [01;31m[K"vicon_receiver/msg/position.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/vicon_client.dir/build.make:90: CMakeFiles/vicon_client.dir/src/vicon_receiver/publisher.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/vicon_client.dir/build.make:76: CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/vicon_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

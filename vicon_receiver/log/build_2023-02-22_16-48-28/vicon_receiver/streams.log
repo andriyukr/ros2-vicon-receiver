@@ -1,0 +1,8 @@
+[0.009s] Invoking command in '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andriy/dev_ws/install/olympe_bridge_nodes:/home/andriy/dev_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver
+[0.014s] [31mCMake Error at CMakeLists.txt:46:
+[0.014s]   Parse error.  Expected a command name, got right paren with text ")".
+[0.014s] 
+[0.014s] [0m
+[0.014s] -- Configuring incomplete, errors occurred!
+[0.014s] See also "/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver/CMakeFiles/CMakeOutput.log".
+[0.016s] Invoked command in '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andriy/dev_ws/install/olympe_bridge_nodes:/home/andriy/dev_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver

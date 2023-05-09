@@ -1,0 +1,46 @@
+[0.008s] Invoking command in '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andriy/dev_ws/install/olympe_bridge_nodes:/home/andriy/dev_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver -- -j20 -l20
+[0.043s] [  2%] Built target vicon_receiver__cpp
+[0.043s] [  5%] [32mBuilding CXX object CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o[0m
+[0.043s] [ 14%] Built target vicon_receiver__rosidl_generator_c
+[0.043s] [ 17%] [32mBuilding CXX object CMakeFiles/vicon_client.dir/src/vicon_receiver/publisher.cpp.o[0m
+[0.050s] [ 17%] Built target ament_cmake_python_symlink_vicon_receiver
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_cpp[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_fastrtps_cpp[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_introspection_cpp[0m
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_fastrtps_c[0m
+[0.056s] [35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_c[0m
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_introspection_c[0m
+[0.062s] [ 32%] Built target vicon_receiver__rosidl_typesupport_fastrtps_cpp
+[0.062s] [ 35%] Built target vicon_receiver__rosidl_typesupport_introspection_cpp
+[0.062s] [ 44%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c
+[0.063s] [ 55%] Built target vicon_receiver__rosidl_typesupport_c
+[0.063s] [ 61%] Built target vicon_receiver__rosidl_typesupport_cpp
+[0.067s] [ 70%] Built target vicon_receiver__rosidl_typesupport_introspection_c
+[0.079s] [ 70%] Built target vicon_receiver
+[0.092s] [ 73%] [34m[1mGenerating Python code for ROS interfaces[0m
+[0.181s] In file included from [01m[K/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/include/vicon_receiver/communicator.hpp:6[m[K,
+[0.181s]                  from [01m[K/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/src/vicon_receiver/communicator.cpp:1[m[K:
+[0.181s] [01m[K/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/include/vicon_receiver/publisher.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kvicon_receiver/msg/position.hpp: No such file or directory
+[0.181s]     5 | #include [01;31m[K"vicon_receiver/msg/position.hpp"[m[K
+[0.181s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.181s] compilation terminated.
+[0.193s] gmake[2]: *** [CMakeFiles/vicon_client.dir/build.make:76: CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o] Error 1
+[0.193s] gmake[2]: *** Waiting for unfinished jobs....
+[0.194s] In file included from [01m[K/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/src/vicon_receiver/publisher.cpp:1[m[K:
+[0.194s] [01m[K/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/include/vicon_receiver/publisher.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kvicon_receiver/msg/position.hpp: No such file or directory
+[0.194s]     5 | #include [01;31m[K"vicon_receiver/msg/position.hpp"[m[K
+[0.194s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.194s] compilation terminated.
+[0.196s] gmake[2]: *** [CMakeFiles/vicon_client.dir/build.make:90: CMakeFiles/vicon_client.dir/src/vicon_receiver/publisher.cpp.o] Error 1
+[0.196s] gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/vicon_client.dir/all] Error 2
+[0.196s] gmake[1]: *** Waiting for unfinished jobs....
+[0.261s] running egg_info
+[0.261s] writing vicon_receiver.egg-info/PKG-INFO
+[0.261s] writing dependency_links to vicon_receiver.egg-info/dependency_links.txt
+[0.262s] writing top-level names to vicon_receiver.egg-info/top_level.txt
+[0.263s] reading manifest file 'vicon_receiver.egg-info/SOURCES.txt'
+[0.264s] writing manifest file 'vicon_receiver.egg-info/SOURCES.txt'
+[0.283s] [ 73%] Built target ament_cmake_python_build_vicon_receiver_egg
+[0.352s] [ 73%] Built target vicon_receiver__py
+[0.353s] gmake: *** [Makefile:146: all] Error 2
+[0.355s] Invoked command in '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andriy/dev_ws/install/olympe_bridge_nodes:/home/andriy/dev_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver -- -j20 -l20

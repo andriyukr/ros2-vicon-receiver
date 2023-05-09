@@ -1,0 +1,69 @@
+[0.007s] Invoking command in '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andriy/dev_ws/install/olympe_bridge_nodes:/home/andriy/dev_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver
+[0.043s] -- The C compiler identification is GNU 11.3.0
+[0.087s] -- The CXX compiler identification is GNU 11.3.0
+[0.093s] -- Detecting C compiler ABI info
+[0.159s] -- Detecting C compiler ABI info - done
+[0.167s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.167s] -- Detecting C compile features
+[0.167s] -- Detecting C compile features - done
+[0.170s] -- Detecting CXX compiler ABI info
+[0.237s] -- Detecting CXX compiler ABI info - done
+[0.242s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.242s] -- Detecting CXX compile features
+[0.242s] -- Detecting CXX compile features - done
+[0.244s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.368s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[0.410s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.434s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.437s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.442s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.471s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.496s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.557s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.559s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.621s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.639s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.669s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.676s] -- Looking for pthread.h
+[0.733s] -- Looking for pthread.h - found
+[0.733s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.804s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.806s] -- Found Threads: TRUE  
+[0.922s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[1.103s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.405s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.423s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[1.424s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.442s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[1.442s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.442s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.442s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.458s] -- Found PythonExtra: .so  
+[1.485s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.485s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.485s]   rosidl_target_interfaces()
+[1.485s] Call Stack (most recent call first):
+[1.485s]   CMakeLists.txt:44 (rosidl_target_interfaces)
+[1.485s] 
+[1.485s] [0m
+[1.485s] [0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[1.485s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[1.485s]   rosidl_target_interfaces()
+[1.485s] Call Stack (most recent call first):
+[1.485s]   CMakeLists.txt:44 (rosidl_target_interfaces)
+[1.485s] 
+[1.485s] [0m
+[1.485s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:55 (if):
+[1.485s]   if given arguments:
+[1.485s] 
+[1.485s]     "\$<BUILD_INTERFACE:/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver/rosidl_typesupport_fastrtps_cpp>" "\$<INSTALL_INTERFACE:include/vicon_receiver>"
+[1.485s] 
+[1.485s]   Unknown arguments specified
+[1.486s] Call Stack (most recent call first):
+[1.486s]   CMakeLists.txt:44 (rosidl_target_interfaces)
+[1.486s] 
+[1.486s] [0m
+[1.486s] -- Configuring incomplete, errors occurred!
+[1.486s] See also "/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver/CMakeFiles/CMakeOutput.log".
+[1.492s] Invoked command in '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andriy/dev_ws/install/olympe_bridge_nodes:/home/andriy/dev_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver

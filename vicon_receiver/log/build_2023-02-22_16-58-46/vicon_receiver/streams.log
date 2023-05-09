@@ -1,0 +1,170 @@
+[0.009s] Invoking command in '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andriy/dev_ws/install/olympe_bridge_nodes:/home/andriy/dev_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver -- -j20 -l20
+[0.025s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.125s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.129s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.131s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.133s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.152s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.169s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.215s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.216s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.295s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.594s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.754s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.969s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.985s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.001s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.001s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.001s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.028s] -- Configuring done
+[1.048s] -- Generating done
+[1.050s] -- Build files have been written to: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver
+[1.068s] [35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_generator_c[0m
+[1.074s] [  2%] Built target vicon_receiver__cpp
+[1.074s] [ 11%] Built target vicon_receiver__rosidl_generator_c
+[1.079s] [ 11%] Built target ament_cmake_python_symlink_vicon_receiver
+[1.081s] [35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_cpp[0m
+[1.081s] [35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_fastrtps_cpp[0m
+[1.081s] [35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_introspection_cpp[0m
+[1.082s] [35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_fastrtps_c[0m
+[1.082s] [35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_introspection_c[0m
+[1.086s] [35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_typesupport_c[0m
+[1.090s] [ 26%] Built target vicon_receiver__rosidl_typesupport_cpp
+[1.090s] [ 29%] Built target vicon_receiver__rosidl_typesupport_introspection_c
+[1.090s] [ 38%] Built target vicon_receiver__rosidl_typesupport_fastrtps_cpp
+[1.090s] [ 47%] Built target vicon_receiver__rosidl_typesupport_introspection_cpp
+[1.091s] [ 55%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c
+[1.096s] [ 64%] Built target vicon_receiver__rosidl_typesupport_c
+[1.102s] [ 67%] [32mBuilding CXX object CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o[0m
+[1.102s] [ 70%] [32mBuilding CXX object CMakeFiles/vicon_client.dir/src/vicon_receiver/publisher.cpp.o[0m
+[1.108s] [ 70%] Built target vicon_receiver
+[1.121s] [ 73%] Built target vicon_receiver__py
+[1.133s] [ 76%] [32mBuilding C object CMakeFiles/vicon_receiver__rosidl_generator_py.dir/rosidl_generator_py/vicon_receiver/msg/_position_s.c.o[0m
+[1.228s] [ 79%] [32m[1mLinking C shared library rosidl_generator_py/vicon_receiver/libvicon_receiver__rosidl_generator_py.so[0m
+[1.270s] [ 79%] Built target vicon_receiver__rosidl_generator_py
+[1.290s] [ 88%] [32mBuilding C object CMakeFiles/vicon_receiver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_c.c.o[0m
+[1.290s] [ 88%] [32mBuilding C object CMakeFiles/vicon_receiver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[1.290s] [ 82%] [32mBuilding C object CMakeFiles/vicon_receiver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[1.312s] running egg_info
+[1.313s] writing vicon_receiver.egg-info/PKG-INFO
+[1.313s] writing dependency_links to vicon_receiver.egg-info/dependency_links.txt
+[1.313s] writing top-level names to vicon_receiver.egg-info/top_level.txt
+[1.316s] reading manifest file 'vicon_receiver.egg-info/SOURCES.txt'
+[1.316s] writing manifest file 'vicon_receiver.egg-info/SOURCES.txt'
+[1.345s] [ 88%] Built target ament_cmake_python_build_vicon_receiver_egg
+[1.394s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/vicon_receiver/vicon_receiver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.394s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/vicon_receiver/vicon_receiver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.394s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/vicon_receiver/vicon_receiver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.433s] [ 97%] Built target vicon_receiver__rosidl_typesupport_introspection_c__pyext
+[1.433s] [ 97%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c__pyext
+[1.433s] [ 97%] Built target vicon_receiver__rosidl_typesupport_c__pyext
+[4.852s] [100%] [32m[1mLinking CXX executable vicon_client[0m
+[5.012s] [100%] Built target vicon_client
+[5.019s] Invoked command in '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andriy/dev_ws/install/olympe_bridge_nodes:/home/andriy/dev_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver -- -j20 -l20
+[5.100s] Invoking command in '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andriy/dev_ws/install/olympe_bridge_nodes:/home/andriy/dev_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver
+[5.108s] -- Install configuration: ""
+[5.109s] -- Execute custom install script
+[5.109s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/ament_index/resource_index/rosidl_interfaces/vicon_receiver
+[5.118s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__functions.h
+[5.125s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__struct.h
+[5.132s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__type_support.h
+[5.142s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/position.h
+[5.151s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/rosidl_generator_c__visibility_control.h
+[5.160s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/library_path.sh
+[5.169s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/library_path.dsv
+[5.178s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[5.186s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.194s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__rosidl_typesupport_introspection_c.h
+[5.203s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.211s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__builder.hpp
+[5.219s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__struct.hpp
+[5.227s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__traits.hpp
+[5.237s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/position.hpp
+[5.244s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[5.253s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.262s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/include/vicon_receiver/vicon_receiver/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[5.270s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/pythonpath.sh
+[5.278s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/pythonpath.dsv
+[5.286s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver-0.1.1-py3.10.egg-info/PKG-INFO
+[5.294s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver-0.1.1-py3.10.egg-info/SOURCES.txt
+[5.301s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver-0.1.1-py3.10.egg-info/dependency_links.txt
+[5.308s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver-0.1.1-py3.10.egg-info/top_level.txt
+[5.315s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/__init__.py
+[5.322s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_c.c
+[5.329s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.337s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/_vicon_receiver_s.ep.rosidl_typesupport_introspection_c.c
+[5.345s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/libvicon_receiver__rosidl_generator_py.so
+[5.353s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg/__init__.py
+[5.361s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg/_position.py
+[5.369s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg/_position_s.c
+[5.377s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.385s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.394s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.403s] -- Up-to-date symlink: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[5.403s] -- Up-to-date symlink: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[5.403s] -- Up-to-date symlink: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/vicon_receiver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[5.403s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/msg/Position.idl
+[5.412s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/msg/Position.msg
+[5.420s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/vicon_receiver/vicon_client
+[5.428s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver//launch/client.launch.py
+[5.433s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/ament_index/resource_index/package_run_dependencies/vicon_receiver
+[5.439s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/ament_index/resource_index/parent_prefix_path/vicon_receiver
+[5.444s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/ament_prefix_path.sh
+[5.450s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/ament_prefix_path.dsv
+[5.456s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/path.sh
+[5.462s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/environment/path.dsv
+[5.468s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/local_setup.bash
+[5.474s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/local_setup.sh
+[5.481s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/local_setup.zsh
+[5.489s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/local_setup.dsv
+[5.496s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/package.dsv
+[5.504s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/ament_index/resource_index/packages/vicon_receiver
+[5.511s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/rosidl_cmake-extras.cmake
+[5.518s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.527s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.535s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_libraries-extras.cmake
+[5.542s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/ament_cmake_export_targets-extras.cmake
+[5.551s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.558s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.567s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiverConfig.cmake
+[5.574s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiverConfig-version.cmake
+[5.582s] -- Symlinking: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/package.xml
+[5.589s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_generator_c.so
+[5.589s] -- Set runtime path of "/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_generator_c.so" to ""
+[5.590s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_fastrtps_c.so
+[5.590s] -- Set runtime path of "/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_fastrtps_c.so" to ""
+[5.590s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_introspection_c.so
+[5.590s] -- Set runtime path of "/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_introspection_c.so" to ""
+[5.590s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_c.so
+[5.590s] -- Set runtime path of "/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_c.so" to ""
+[5.590s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_fastrtps_cpp.so
+[5.591s] -- Set runtime path of "/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.591s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_introspection_cpp.so
+[5.591s] -- Set runtime path of "/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_introspection_cpp.so" to ""
+[5.591s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_cpp.so
+[5.591s] -- Set runtime path of "/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_typesupport_cpp.so" to ""
+[5.618s] Listing '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver'...
+[5.618s] Compiling '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/__init__.py'...
+[5.618s] Listing '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg'...
+[5.618s] Compiling '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg/__init__.py'...
+[5.618s] Compiling '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/local/lib/python3.10/dist-packages/vicon_receiver/msg/_position.py'...
+[5.621s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_generator_py.so
+[5.621s] -- Set runtime path of "/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/lib/libvicon_receiver__rosidl_generator_py.so" to ""
+[5.621s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_generator_cExport.cmake
+[5.621s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_generator_cExport-noconfig.cmake
+[5.621s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_typesupport_fastrtps_cExport.cmake
+[5.621s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.622s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cExport.cmake
+[5.622s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.622s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cExport.cmake
+[5.622s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cExport-noconfig.cmake
+[5.622s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_generator_cppExport.cmake
+[5.622s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.622s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.622s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cppExport.cmake
+[5.622s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.622s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cppExport.cmake
+[5.622s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/vicon_receiver__rosidl_typesupport_cppExport-noconfig.cmake
+[5.622s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_generator_pyExport.cmake
+[5.623s] -- Installing: /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/install/vicon_receiver/share/vicon_receiver/cmake/export_vicon_receiver__rosidl_generator_pyExport-noconfig.cmake
+[5.623s] Invoked command in '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andriy/dev_ws/install/olympe_bridge_nodes:/home/andriy/dev_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver

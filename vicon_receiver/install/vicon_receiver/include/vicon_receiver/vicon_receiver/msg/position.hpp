@@ -1,0 +1,1 @@
+/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver/rosidl_generator_cpp/vicon_receiver/msg/position.hpp

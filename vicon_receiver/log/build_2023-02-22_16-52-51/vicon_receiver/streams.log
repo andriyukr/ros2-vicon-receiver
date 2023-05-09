@@ -1,0 +1,56 @@
+[0.009s] Invoking command in '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andriy/dev_ws/install/olympe_bridge_nodes:/home/andriy/dev_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver -- -j20 -l20
+[0.042s] [35m[1mConsolidate compiler generated dependencies of target vicon_receiver__rosidl_generator_c[0m
+[0.048s] [  2%] Built target vicon_receiver__cpp
+[0.049s] [  5%] [32mBuilding CXX object CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o[0m
+[0.049s] [  8%] [32mBuilding CXX object CMakeFiles/vicon_client.dir/src/vicon_receiver/publisher.cpp.o[0m
+[0.049s] [ 17%] Built target vicon_receiver__rosidl_generator_c
+[0.056s] [ 17%] Built target ament_cmake_python_symlink_vicon_receiver
+[0.057s] [ 20%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[0.058s] [ 23%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[0.058s] [ 26%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[0.061s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[0.062s] [ 35%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[0.062s] [ 35%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[0.262s] In file included from [01m[K/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/src/vicon_receiver/publisher.cpp:1[m[K:
+[0.262s] [01m[K/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/include/vicon_receiver/publisher.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kvicon_receiver/msg/position.hpp: No such file or directory
+[0.262s]     5 | #include [01;31m[K"vicon_receiver/msg/position.hpp"[m[K
+[0.263s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.263s] compilation terminated.
+[0.274s] In file included from [01m[K/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/include/vicon_receiver/communicator.hpp:6[m[K,
+[0.275s]                  from [01m[K/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/src/vicon_receiver/communicator.cpp:1[m[K:
+[0.275s] [01m[K/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/include/vicon_receiver/publisher.hpp:5:10:[m[K [01;31m[Kfatal error: [m[Kvicon_receiver/msg/position.hpp: No such file or directory
+[0.275s]     5 | #include [01;31m[K"vicon_receiver/msg/position.hpp"[m[K
+[0.275s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.275s] compilation terminated.
+[0.275s] gmake[2]: *** [CMakeFiles/vicon_client.dir/build.make:90: CMakeFiles/vicon_client.dir/src/vicon_receiver/publisher.cpp.o] Error 1
+[0.276s] gmake[2]: *** Waiting for unfinished jobs....
+[0.279s] gmake[2]: *** [CMakeFiles/vicon_client.dir/build.make:76: CMakeFiles/vicon_client.dir/src/vicon_receiver/communicator.cpp.o] Error 1
+[0.279s] gmake[1]: *** [CMakeFiles/Makefile2:592: CMakeFiles/vicon_client.dir/all] Error 2
+[0.279s] gmake[1]: *** Waiting for unfinished jobs....
+[0.353s] [ 38%] [32mBuilding CXX object CMakeFiles/vicon_receiver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/vicon_receiver/msg/position__type_support.cpp.o[0m
+[0.392s] [ 41%] [32mBuilding CXX object CMakeFiles/vicon_receiver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/vicon_receiver/msg/detail/position__type_support.cpp.o[0m
+[0.400s] [ 44%] [32mBuilding CXX object CMakeFiles/vicon_receiver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/vicon_receiver/msg/detail/dds_fastrtps/position__type_support.cpp.o[0m
+[0.410s] running egg_info
+[0.411s] writing vicon_receiver.egg-info/PKG-INFO
+[0.412s] writing dependency_links to vicon_receiver.egg-info/dependency_links.txt
+[0.412s] writing top-level names to vicon_receiver.egg-info/top_level.txt
+[0.415s] reading manifest file 'vicon_receiver.egg-info/SOURCES.txt'
+[0.416s] writing manifest file 'vicon_receiver.egg-info/SOURCES.txt'
+[0.440s] [ 47%] [32mBuilding CXX object CMakeFiles/vicon_receiver__rosidl_typesupport_c.dir/rosidl_typesupport_c/vicon_receiver/msg/position__type_support.cpp.o[0m
+[0.455s] [ 47%] Built target ament_cmake_python_build_vicon_receiver_egg
+[0.476s] [ 50%] [32mBuilding CXX object CMakeFiles/vicon_receiver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/vicon_receiver/msg/detail/position__type_support_c.cpp.o[0m
+[0.477s] [ 52%] [32mBuilding C object CMakeFiles/vicon_receiver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/vicon_receiver/msg/detail/position__type_support.c.o[0m
+[0.486s] [ 55%] [32m[1mLinking CXX shared library libvicon_receiver__rosidl_typesupport_c.so[0m
+[0.518s] [ 58%] [32m[1mLinking C shared library libvicon_receiver__rosidl_typesupport_introspection_c.so[0m
+[0.537s] [ 58%] Built target vicon_receiver__rosidl_typesupport_c
+[0.555s] [ 58%] Built target vicon_receiver__rosidl_typesupport_introspection_c
+[0.650s] [ 61%] [32m[1mLinking CXX shared library libvicon_receiver__rosidl_typesupport_cpp.so[0m
+[0.686s] [ 61%] Built target vicon_receiver__rosidl_typesupport_cpp
+[0.779s] [ 64%] [32m[1mLinking CXX shared library libvicon_receiver__rosidl_typesupport_introspection_cpp.so[0m
+[0.817s] [ 70%] [32m[1mLinking CXX shared library libvicon_receiver__rosidl_typesupport_fastrtps_c.so[0m
+[0.817s] [ 70%] [32m[1mLinking CXX shared library libvicon_receiver__rosidl_typesupport_fastrtps_cpp.so[0m
+[0.834s] [ 70%] Built target vicon_receiver__rosidl_typesupport_introspection_cpp
+[0.877s] [ 70%] Built target vicon_receiver__rosidl_typesupport_fastrtps_c
+[0.877s] [ 70%] Built target vicon_receiver__rosidl_typesupport_fastrtps_cpp
+[0.878s] gmake: *** [Makefile:146: all] Error 2
+[0.879s] Invoked command in '/home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/andriy/dev_ws/install/olympe_bridge_nodes:/home/andriy/dev_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /home/andriy/dev_ws/src/vicon-receiver-galactic/vicon_receiver/build/vicon_receiver -- -j20 -l20
